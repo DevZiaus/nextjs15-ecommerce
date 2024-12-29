@@ -25,8 +25,12 @@ npm run dev
 ## Environment Variables
 Create `.env.local` file:
 ```
-MONGODB_URI=your_mongodb_uri
-NEXT_PUBLIC_API_URL=your_api_url
+NEXT_PUBLIC_APP_NAME='Your App Name'
+NEXT_PUBLIC_APP_SLOGAN='Your App Slogan'
+NEXT_PUBLIC_APP_DESCRIPTION='Your App Description'
+
+//Database
+MONGODB_URI=your dataqbae uri
 ```
 
 ## Contributing
