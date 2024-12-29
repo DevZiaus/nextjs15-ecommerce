@@ -23,7 +23,7 @@ npm run dev
 ```
 
 ## Environment Variables
-Create `.env.local` file:
+Rename `example.env.local` to `.env.local` or Create `.env.local` file
 ```
 NEXT_PUBLIC_APP_NAME='Your App Name'
 NEXT_PUBLIC_APP_SLOGAN='Your App Slogan'
