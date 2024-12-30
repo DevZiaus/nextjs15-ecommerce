@@ -1,7 +1,8 @@
 
 import { useEffect, useState } from 'react'
-import { ChevronUp } from 'lucide-react'
+import { ChevronsUp } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+
 
 
 const BackToTopButton: React.FC = () => {
@@ -9,7 +10,7 @@ const BackToTopButton: React.FC = () => {
 
     useEffect(() => {
         const toggleVisibility = () => {
-            if (window.scrollY > 300) {
+            if (window.scrollY > 200) {
                 setIsVisible(true)
             } else {
                 setIsVisible(false)
@@ -30,9 +31,9 @@ const BackToTopButton: React.FC = () => {
         return isVisible ? (
             <Button
                 onClick={scrollToTop}
-                className='fixed bottom-8 right-8 z-50 rounded-full animate-pulse bg-black text-white hover:bg-gray-800'
+                className='fixed bottom-8 right-8 z-50 rounded-full animate-pulse bg-[#0095da] text-white hover:bg-[#e68324] transition-colors duration-300 w-10 h-10'
             >
-                <ChevronUp />
+                <ChevronsUp strokeWidth={3} />
             </Button>
         ) : null;
     };
