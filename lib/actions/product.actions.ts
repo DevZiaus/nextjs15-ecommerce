@@ -1,7 +1,7 @@
 'use server'
 
 import connectToDb from '@/lib/db'
-import Product from '@/lib/db/models/product.model'
+import Product, { IProduct } from '@/lib/db/models/product.model'
 
 export const getAllCategories = async () => {
     await connectToDb()
@@ -34,4 +34,21 @@ export const getProductsForCard = async ({
         href: string
         image: string
     }[]
+}
+
+export const getProductsByTag = async ({
+    tag,
+    limit = 10,
+}: {
+    tag: string
+    limit?: number
+}) => {
+    await connectToDb()
+    const products = await Product.find({
+        tags: { $in: [tag] },
+        isPublished: true,
+    })
+        .sort({ createdAt: 'desc' })
+        .limit(limit)
+    return JSON.parse(JSON.stringify(products)) as IProduct[]
 }
