@@ -6,6 +6,7 @@ import { getAllCategories, getProductsByTag, getProductsForCard } from '@/lib/ac
 import { toSlug } from '@/lib/utils'
 
 import data from '@/lib/data'
+import BrowsingHistoryList from '@/components/shared/browsingHistoryList'
 
 
 const homePage = async() => {
@@ -92,6 +93,9 @@ const homePage = async() => {
             </CardContent>
         </Card>
       </div>
+      <div className='p-4 bg-background'>
+        <BrowsingHistoryList />
+    </div>
     </>
   )
 }
