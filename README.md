@@ -1,4 +1,5 @@
-#Ecommperce website built with NextJS 15, MongoDB, and TailwindCSS'
+# Ecommperce website built with NextJS 15, MongoDB, and TailwindCSS
+
 ## Overview
 A modern e-commerce platform for selling crochet items online.
 
@@ -18,6 +19,7 @@ A modern e-commerce platform for selling crochet items online.
 
 ## Installation
 ```bash
+git clone https://github.com/DevZiaus/nextjs15-ecommerce.git
 npm install
 npm run dev
 ```
