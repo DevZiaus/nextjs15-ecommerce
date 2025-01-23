@@ -1,5 +1,5 @@
-import Header from '@/components/shared/header'
-import Footer from '@/components/shared/footer'
+import Header from '@/components/shared/header/Index'
+import Footer from '@/components/shared/Footer'
 
 const HomeLayout = async ({
     children,

@@ -1,6 +1,6 @@
 'use client'
-import BrowsingHistoryList from '@/components/shared/browsingHistoryList'
-import ProductPrice from '@/components/shared/product/productPrice'
+import BrowsingHistoryList from '@/components/shared/BrowsingHistoryList'
+import ProductPrice from '@/components/shared/product/ProductPrice'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import {

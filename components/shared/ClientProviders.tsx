@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import useCartSidebar from '@/hooks/useCartSidebar'
-import CartSidebar from './cartSidebar'
+import CartSidebar from './CartSidebar'
 import { Toaster } from '../ui/toaster'
 
 const ClientProviders = ({

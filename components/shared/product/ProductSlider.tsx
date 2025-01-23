@@ -8,7 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel'
-import ProductCard from './productCard'
+import ProductCard from './ProductCard'
 import { IProduct } from '@/lib/db/models/product.model'
 
 const ProductSlider = ({

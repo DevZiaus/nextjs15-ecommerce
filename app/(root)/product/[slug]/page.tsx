@@ -3,15 +3,15 @@ import {
     getProductBySlug,
     getRelatedProductsByCategory,
 } from '@/lib/actions/product.actions'
-import Rating from '@/components/shared/product/rating'
-import SelectVariant from '@/components/shared/product/selectVariant'
-import ProductPrice from '@/components/shared/product/productPrice'
-import ProductGallery from '@/components/shared/product/productGallery'
+import Rating from '@/components/shared/product/Rating'
+import SelectVariant from '@/components/shared/product/SelectVariant'
+import ProductPrice from '@/components/shared/product/ProductPrice'
+import ProductGallery from '@/components/shared/product/ProductGallery'
 import { Separator } from '@/components/ui/separator'
-import ProductSlider from '@/components/shared/product/productSlider'
-import BrowsingHistoryList from '@/components/shared/browsingHistoryList'
-import AddToBrowsingHistory from '@/components/shared/product/addToBrowsingHistory'
-import AddToCart from '@/components/shared/product/addToCart'
+import ProductSlider from '@/components/shared/product/ProductSlider'
+import BrowsingHistoryList from '@/components/shared/BrowsingHistoryList'
+import AddToBrowsingHistory from '@/components/shared/product/AddToBrowsingHistory'
+import AddToCart from '@/components/shared/product/AddToCart'
 import { generateId, round2 } from '@/lib/utils'
 
 export const generateMetadata = async (props: {

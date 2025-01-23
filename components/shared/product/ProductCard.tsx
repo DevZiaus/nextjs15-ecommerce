@@ -5,11 +5,11 @@ import React from 'react'
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card'
 import { IProduct } from '@/lib/db/models/product.model'
 
-import Rating from './rating'
+import Rating from './Rating'
 import { formatNumber, generateId, round2 } from '@/lib/utils'
-import ProductPrice from './productPrice'
-import ImageHover from './imageHover'
-import AddToCart from './addToCart'
+import ProductPrice from './ProductPrice'
+import ImageHover from './ImageHover'
+import AddToCart from './AddToCart'
 
 const ProductCard = ({
   product,

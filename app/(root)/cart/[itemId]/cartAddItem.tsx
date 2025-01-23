@@ -1,5 +1,5 @@
 'use client'
-import ProductPrice from '@/components/shared/product/productPrice'
+import ProductPrice from '@/components/shared/product/ProductPrice'
 import { buttonVariants } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
@@ -9,7 +9,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import useCartStore from '@/hooks/useCartStore'
 import { FREE_SHIPPING_MIN_PRICE } from '@/lib/constants'
-import BrowsingHistoryList from '@/components/shared/browsingHistoryList'
+import BrowsingHistoryList from '@/components/shared/BrowsingHistoryList'
 
 export default function CartAddItem({ itemId }: { itemId: string }) {
   const {

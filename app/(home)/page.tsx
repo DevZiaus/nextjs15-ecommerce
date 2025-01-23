@@ -1,12 +1,12 @@
 import { Card, CardContent } from '@/components/ui/card'
-import HomeCard from '@/components/shared/home/homeCard'
-import HomeCarousel from '@/components/shared/home/homeCarousel'
-import ProductSlider from '@/components/shared/product/productSlider'
+import HomeCard from '@/components/shared/home/HomeCard'
+import HomeCarousel from '@/components/shared/home/HomeCarousel'
+import ProductSlider from '@/components/shared/product/ProductSlider'
 import { getAllCategories, getProductsByTag, getProductsForCard } from '@/lib/actions/product.actions'
 import { toSlug } from '@/lib/utils'
 
 import data from '@/lib/data'
-import BrowsingHistoryList from '@/components/shared/browsingHistoryList'
+import BrowsingHistoryList from '@/components/shared/BrowsingHistoryList'
 
 
 const homePage = async() => {

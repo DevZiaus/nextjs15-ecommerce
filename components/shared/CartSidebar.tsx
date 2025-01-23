@@ -14,7 +14,7 @@ import {
   SelectValue,
 } from '../ui/select'
 import { TrashIcon } from 'lucide-react'
-import ProductPrice from './product/productPrice'
+import ProductPrice from './product/ProductPrice'
 import { FREE_SHIPPING_MIN_PRICE } from '@/lib/constants'
 
 const CartSidebar = () => {

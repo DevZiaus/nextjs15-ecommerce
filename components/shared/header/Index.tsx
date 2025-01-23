@@ -1,8 +1,8 @@
 import { APP_NAME } from '@/lib/constants';
 import Image from 'next/image';
 import Link from 'next/link';
-import Search from './search';
-import Menu from './menu';
+import Search from './Search';
+import Menu from './Menu';
 import { Button } from '@/components/ui/button';
 import { MenuIcon } from 'lucide-react';
 import data from '@/lib/data'
