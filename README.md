@@ -39,7 +39,7 @@ AUTH_GOOGLE_ID='Your google Client ID'
 AUTH_GOOGLE_SECRET='Your Google Client Secret'
 
 //Database
-MONGODB_URI=your dataqbae uri
+MONGODB_URI='your dataqbae uri'
 ```
 
 ## Contributing
