@@ -30,7 +30,13 @@ Rename `example.env.local` to `.env.local` or Create `.env.local` file
 NEXT_PUBLIC_APP_NAME='Your App Name'
 NEXT_PUBLIC_APP_SLOGAN='Your App Slogan'
 NEXT_PUBLIC_APP_DESCRIPTION='Your App Description'
+
+//Auth
 AUTH_SECRET='Your Next Auth Secret'
+
+//Google
+AUTH_GOOGLE_ID='Your google Client ID'
+AUTH_GOOGLE_SECRET='Your Google Client Secret'
 
 //Database
 MONGODB_URI=your dataqbae uri
