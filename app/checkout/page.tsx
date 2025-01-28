@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { auth } from '@/auth'
 import { redirect } from 'next/navigation'
+import CheckoutForm from './checkOutForm'
 
 export const metadata: Metadata = {
     title: 'Checkout',
@@ -11,7 +12,7 @@ export const CheckoutPage = async () => {
     if (!session?.user) {
         redirect('/sign-in?callbackUrl=/checkout')
     }
-    return <div>Checkout Form</div>
+    return <CheckoutForm />
 }
 
 export default CheckoutPage
