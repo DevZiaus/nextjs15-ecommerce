@@ -10,7 +10,7 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import useCartStore from '@/hooks/useCartStore'
-import { useToast } from '@/hooks/use-toast'
+import { useToast } from '@/hooks/useToast'
 import { OrderItem } from '@/types'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
