@@ -464,6 +464,7 @@ const CheckoutForm = () => {
                           <RadioGroupItem
                             value={pm.name}
                             id={`payment-${pm.name}`}
+                            disabled={pm.disabled}
                           />
                           <Label
                             className='font-bold pl-2 cursor-pointer'

@@ -12,7 +12,7 @@ const initialState: Cart = {
   totalPrice: 0,
   paymentMethod: undefined,
   deliveryDateIndex: undefined,
-  ShippingAddress: undefined,
+  shippingAddress: undefined,
 
 }
 
